@@ -1,9 +1,11 @@
 # Lab Report 2
 
 Part 1.
+Below is the code used to run StringServer.
 ![Image](StringS.png)
 After typing a String such as hello in /add-message?s=hello The website will refresh the text...
 
+For this method we are checking to see if the path contains "/add" and "=". If so we can print what is typed after = .
 ![Image](hello.png)
 
 If you were to type /add-message?s=how are you ... You'll see hello /n how are you ... in the website.
