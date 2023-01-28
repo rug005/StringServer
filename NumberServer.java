@@ -9,7 +9,7 @@ class Handler implements URLHandler {
     public String handleRequest(URI url) {
         if (url.getPath().equals("/")) {
             return String.format("%s's number: %d",name , num);
-        } else if (url.getPath().equals("/increment")) {
+        } else if (url.getPath().equals("/add-message?s=StringServer")) {
             num += 1;
             return String.format("Number incremented!");
         } else {
