@@ -2,6 +2,8 @@
 
 Part 1.
 ![Image](handleRequest.png)
+![Image](hello.png)
+![Image](helloh.png)
 
 
 Part 2.
