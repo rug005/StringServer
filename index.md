@@ -2,7 +2,12 @@
 
 Part 1.
 ![Image](handleRequest.png)
+After typing a String such as hello in /add-message?s=hello The website will refresh the text...
+
 ![Image](hello.png)
+
+If you were to type /add-message?s=how are you ... You'll see hello /n how are you ... in the website.
+
 ![Image](helloh.png)
 
 
