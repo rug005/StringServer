@@ -1,7 +1,7 @@
 # Lab Report 2
 
 Part 1.
-![Image](handleRequest.png)
+![Image](StringS.png)
 After typing a String such as hello in /add-message?s=hello The website will refresh the text...
 
 ![Image](hello.png)
