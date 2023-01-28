@@ -8,15 +8,14 @@ class Handler implements URLHandler {
     String name = "Ruben";
     public String handleRequest(URI url) {
         if (url.getPath().equals("/")) {
-            return String.format("%s's number: %d",name , num);
-        } else if (url.getPath().equals("/add-message?s=StringServer")) {
-            num += 1;
-            return String.format("Number incremented!");
+            return String.format("%s's number: %d",name , num++);
+        } else if (url.getPath().equals("/add")) {
+            return String.format("Hello");
         } else {
             System.out.println("Path: " + url.getPath());
-            if (url.getPath().contains("/add")) {
+            if (url.getPath().contains("message?s=Hello")) {
                 String[] parameters = url.getQuery().split("=");
-                if (parameters[0].equals("count")) {
+                if (parameters[0].equals("hello")) {
                     num += Integer.parseInt(parameters[1]);
                     return String.format("Number increased by %s! It's now %d", parameters[1], num);
                 }
