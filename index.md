@@ -1,6 +1,7 @@
 # Lab Report 2
 
 Part 1.
+![Image](handleRequest.png)
 
 
 Part 2.
