@@ -26,7 +26,6 @@ The code below displays both methods( reversed and reversedInPlace ) after they 
 - An input that doesn't include a failure as a JUnit test can be seen in Tester ArrayTest.java. When the input in testReversed is null there is no way to detect if there's an error with the reverse method.
 - A failure-inducing input I found in Lab 3 would be inside the file LectureExamples.java. I noticed that method sumEvebIndices prints out 19 instead of 15. The reason is due to it having a bug that would not add the evens correctly.
 ![Image](TestSum.png)
-
--
+The bug in the code was it incrementing i+2 while grabbing [i+1] from the array. This was the bug in the code that caused it to not sum the even numbers.
 ---
 **Part 3.** After doing lab 2 and 3 I felt that I was able to learn more about how to start a web server using Github Desktop, and VSCode. My understanding of github has also improved.
