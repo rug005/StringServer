@@ -14,14 +14,14 @@ If you were to type /add-message?s=how are you ... You'll see hello /n how are y
 
 ---
 **Part 2.**
-- A failure-inducing input I found in Lab 3 would be inside the file LectureExamples.java. I noticed that method sumEvebIndices has a
+- A failure-inducing input I found in Lab 3 would be inside the file LectureExamples.java. I noticed that method sumEvenIndices has a
 bug that would not add the evens correctly.
 ![Image](ReverseTester.png)
 
 The code below displays both methods( reversed and reversedInPlace ) after they have been fixed.
 ![Image](FixedCode.png)
 
-- The method averageWithoutLowest did not seem to induce a failure.
+- The method averageWithoutLowest did not seem to induce a failure. This method was tested with multiple numbers sorted in different ways and returned the correct value.
 
 - An input that doesn't include a failure as a JUnit test can be seen in Tester ArrayTest.java. When the input in testReversed is null there is no way to detect if there's an error with the reverse method.
 - A failure-inducing input I found in Lab 3 would be inside the file LectureExamples.java. I noticed that method sumEvebIndices prints out 19 instead of 15. The reason is due to it having a bug that would not add the evens correctly.
