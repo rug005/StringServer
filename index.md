@@ -21,7 +21,7 @@ bug that would not add the evens correctly.
 The code below displays both methods( reversed and reversedInPlace ) after they have been fixed.
 ![Image](FixedCode.png)
 
--The method averageWithoutLowest did not seem to induce a failure.
+- The method averageWithoutLowest did not seem to induce a failure.
 
 - An input that doesn't include a failure as a JUnit test can be seen in Tester ArrayTest.java. When the input in testReversed is null there is no way to detect if there's an error with the reverse method.
 - A failure-inducing input I found in Lab 3 would be inside the file LectureExamples.java. I noticed that method sumEvebIndices has a
