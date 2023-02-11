@@ -1,6 +1,6 @@
 # Lab Report 2 - Servers and Bugs (Week 3): Ruben A Gonzalez
 ---
-**Part 1: Write a web server called StringServer**
+# Part 1: Write a web server called StringServer
 Below is the code used to run StringServer.
 ![Image](StringS.png)
 After typing a String such as hello in /add-message?s=hello The website will refresh the text...
@@ -13,7 +13,7 @@ If you were to type /add-message?s=how are you ... You'll see hello /n how are y
 ![Image](helloh.png)
 
 ---
-**Part 2.**
+# Part 2
 - A failure-inducing input I found in Lab 3 would be inside the file LectureExamples.java. I noticed that method sumEvenIndices has a
 bug that would not add the evens correctly.
 ![Image](ReverseTester.png)
@@ -30,4 +30,5 @@ The bug in the code was it incrementing i+2 while grabbing [i+1] from the array.
 
 ---
 
-**Part 3.** After doing lab 2 and 3 I felt that I was able to learn more about how to start a web server using Github Desktop, and VSCode. My understanding of github has also improved. Another thing that I got a lot of experience doing during these two labs was to push my code using Github desktop. I enjoy knowing that these skills will help me a lot in the future.
+# Part 3 
+After doing lab 2 and 3 I felt that I was able to learn more about how to start a web server using Github Desktop, and VSCode. My understanding of github has also improved. Another thing that I got a lot of experience doing during these two labs was to push my code using Github desktop. I enjoy knowing that these skills will help me a lot in the future.
