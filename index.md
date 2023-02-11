@@ -1,6 +1,6 @@
-# Lab Report 2: Ruben A Gonzalez
+# Lab Report 2 - Servers and Bugs (Week 3): Ruben A Gonzalez
 ---
-**Part 1**
+**Part 1: Write a web server called StringServer**
 Below is the code used to run StringServer.
 ![Image](StringS.png)
 After typing a String such as hello in /add-message?s=hello The website will refresh the text...
